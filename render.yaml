@@ -6,4 +6,4 @@ services:
 
     buildCommand: pip install -r requirements.txt
 
-    startCommand: streamlit run chatmodel/UIChatbot.py --server.port $PORT --server.address 0.0.0.0
+    startCommand: python -m streamlit run chatmodel/UIChatbot.py --server.port $PORT --server.address 0.0.0.0
