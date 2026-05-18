@@ -2,7 +2,6 @@ services:
   - type: web
     name: ai-mood-chatbot
     runtime: python
-    plan: free
 
     buildCommand: pip install -r requirements.txt
 
